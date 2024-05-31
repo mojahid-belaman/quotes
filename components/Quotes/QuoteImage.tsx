@@ -11,7 +11,7 @@ interface QuoteImageProps {
 
 function QuoteImage(props: QuoteImageProps) {
   const { quote, viewShotRef } = props;
-  const [imgIndex, setImgIndex] = useState(0);
+  const [imgIndex, setImgIndex] = useState(4);
 
   function randomImageHandler() {
     const index = Math.floor(Math.random() * images.length);
