@@ -5,12 +5,21 @@
   "build": {
     "development": {
       "developmentClient": true,
-      "distribution": "internal"
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_INTERSTITIAL_AD_ANDROID": "ca-app-pub-6889218654260587/1827565219",
+        "EXPO_PUBLIC_BANNER_AD_ANDROID": "ca-app-pub-6889218654260587/8026589165"
+      }
     },
     "preview": {
       "distribution": "internal"
     },
-    "production": {}
+    "production": {
+      "env": {
+        "EXPO_PUBLIC_INTERSTITIAL_AD_ANDROID": "ca-app-pub-6889218654260587/1827565219",
+        "EXPO_PUBLIC_BANNER_AD_ANDROID": "ca-app-pub-6889218654260587/8026589165"
+      }
+    }
   },
   "submit": {
     "production": {}
