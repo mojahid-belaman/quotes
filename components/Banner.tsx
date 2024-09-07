@@ -14,7 +14,7 @@ function Banner() {
     <View style={styles.ads}>
       <BannerAd
         unitId={adUnitId}
-        size={BannerAdSize.LARGE_BANNER}
+        size={BannerAdSize.BANNER}
         requestOptions={{
           requestNonPersonalizedAdsOnly: true,
         }}
